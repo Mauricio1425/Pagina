@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $to = 'clinicadentalsmil@gmail.com'; 
+    $to = 'mauricio.tavitas25@gmail.com'; 
     $subject = $_POST['subjet'];
     $name = $_POST['name'];
     $from = $_POST['mail'];
