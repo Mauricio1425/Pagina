@@ -319,7 +319,7 @@ h2 {
 
 .contact-in:nth-child(1) {
     flex: 30%;
-    background: url(images/1.jpg);
+    background: url(imagesConsultorio/1.jpg);
     color: #fff;
 }
 
@@ -549,7 +549,7 @@ h2 {
     .dental-content h2 {
         font-size: 35px;
     }
-    
+
     .standar-group {
         display: flex;
         flex-wrap: wrap;
@@ -563,19 +563,19 @@ h2 {
         max-width: 100%;
         margin-bottom: 30px;
     }
-    
+
     .estandarte-1 img {
         width: 100%;
         max-width: 200px;
         height: auto;
     }
-    
+
     .estandarte-1 h3 {
         color: #323337;
         font-size: 20px;
         margin-bottom: 15px;
     }
-    
+
     .carousel img {
         height: 300px;
         width: 100%;
