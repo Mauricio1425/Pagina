@@ -241,7 +241,7 @@ body {
 }
 
 .general-2 {
-    background-image: url(misio_vision/mision_codigo.jpg);
+    background-image: url(imagesConsultorio/mision_codigo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -249,7 +249,7 @@ body {
 }
 
 .general-3 {
-    background-image: url(misio_vision/vision_codigo.jpg);
+    background-image: url(imagesConsultorio/vision_codigo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
