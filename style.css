@@ -564,7 +564,10 @@ h2 {
     }
 
     .carousel img {
-        height: 300px;
+        height: 500px;
+        text-align: center;
+        padding-left: 8px;
+        width: calc(100% / 1);
     }
 
     .general-1,
