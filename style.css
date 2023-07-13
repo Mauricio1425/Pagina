@@ -546,6 +546,15 @@ h2 {
 
 /* Estilos específicos para pantallas pequeñas */
 @media screen and (max-width: 767px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    
+    }
+
     .dental-content h2 {
         font-size: 35px;
     }
@@ -577,9 +586,15 @@ h2 {
     }
 
     .carousel img {
-        height: 300px;
+        align-content: auto;
+        height: 380px;
         width: 100%;
     }
+
+    .services{
+        padding: 10px;
+    }
+
 }
 
 /* Estilos específicos para pantallas medianas */
