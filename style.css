@@ -610,7 +610,7 @@ h2 {
 }
 
 /* Estilos específicos para pantallas grandes */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1180px) {
     .carousel img {
         height: 390px;
         width: calc(100% / 2);
