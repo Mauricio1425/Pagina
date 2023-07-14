@@ -600,8 +600,12 @@ h2 {
 /* Estilos específicos para pantallas medianas */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .carousel img {
-        height: 400px;
+        height: 390px;
         width: calc(100% / 1);
+    }
+
+    .services{
+        padding: 10px;
     }
 }
 
@@ -610,6 +614,10 @@ h2 {
     .carousel img {
         height: 600px;
         width: calc(100% / 2);
+    }
+
+    .services{
+        padding: 10px;
     }
 }
 
