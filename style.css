@@ -628,6 +628,15 @@ h2 {
         grid-gap: 30px;
         padding: 35px 0px;
     }
+
+    .carousel img {
+        height: 390px;
+        width: calc(100% / 2);
+    }
+
+    .services{
+        padding: 10px;
+    }
 }
 
 
