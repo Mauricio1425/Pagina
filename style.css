@@ -554,47 +554,39 @@ h2 {
         list-style: none;
     
     }
-
     .dental-content h2 {
         font-size: 35px;
     }
-
     .standar-group {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 50px;
     }
-
     .estandarte-1 {
         padding: 0 15px;
         flex-basis: 100%;
         max-width: 100%;
         margin-bottom: 30px;
     }
-
     .estandarte-1 img {
         width: 100%;
         max-width: 200px;
         height: auto;
     }
-
     .estandarte-1 h3 {
         color: #323337;
         font-size: 20px;
         margin-bottom: 15px;
     }
-
     .carousel img {
-        align-content: auto;
+        align-items: auto;
         height: 380px;
         width: 100%;
     }
-
     .services{
         padding: 10px;
     }
-
 }
 
 /* Estilos específicos para pantallas medianas */
@@ -605,8 +597,9 @@ h2 {
     }
 
     .services{
-        padding: 10px;
+        padding: 20px;
     }
+
 }
 
 /* Estilos específicos para pantallas grandes */
@@ -614,6 +607,10 @@ h2 {
     .carousel img {
         height: 600px;
         width: calc(100% / 2);
+    }
+
+    .services{
+        padding: 16%;
     }
 }
 
@@ -625,26 +622,20 @@ h2 {
         padding: 35px 0px;
     }
 
-    .carousel img {
-        height: 390px;
-        width: calc(100% / 2);
+    .services{
+        padding: 5px;
     }
 
-    .services{
-        padding: 10px;
-    }
 }
 
 
 
 @media only screen and (max-width: 400px),
 only screen and (max-width: 360px) {
-
     .contact-in:nth-child(1),
     .contact-in:nth-child(2) {
         flex: 50%;
     }
-
     .contact-in:nth-child(3) {
         flex: 100%;
     }
@@ -656,11 +647,9 @@ only screen and (max-width: 360px) {
     .menu {
         padding: 30px;
     }
-
     .menu label {
         display: initial;
     }
-
     .menu .navbar {
         position: absolute;
         top: 100%;
@@ -669,86 +658,65 @@ only screen and (max-width: 360px) {
         background-color: #323337;
         display: none;
     }
-
     .menu .navbar ul li {
         width: 100%;
     }
-
     #menu:checked~.navbar {
         display: initial;
     }
-
     .header {
         min-height: 0vh;
     }
-
     .header-content {
         padding: 100px 30px;
     }
-
     .header-content p {
         padding: 0;
     }
-
     .standards {
         padding: 30px;
     }
-
     .dental-content h2 {
         padding: 0;
     }
-
     .txt-p {
         padding: 0;
     }
-
     .standar-group {
         flex-direction: column;
         margin-bottom: 0;
     }
-
     .standards-img {
         display: none;
     }
-
-
-
     .general {
         flex-direction: column;
     }
-
     .general-1 {
         width: 100%;
         padding: 30px;
         text-align: center;
     }
-
     .general-2,
     .general-3 {
         display: none;
     }
-
     .doctor {
         padding: 30px;
     }
-
     .doctor-content {
         flex-direction: column;
     }
-
     .doctor-1 {
         padding: 0;
     }
-
     .footer {
         padding: 30px;
     }
-
     .footer-content {
         flex-direction: column;
         text-align: center;
     }
-
     .footer-bottom {
         padding: 30px;
     }
